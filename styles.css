@@ -1,0 +1,12 @@
+html, body {
+    height: 100%; /* Ensure full height for the body */
+    margin: 0; /* Remove default margin */
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the wrapper takes full height of the viewport */
+}
+main {
+    flex: 1; /* Allow the main content to grow and take up available space */
+}
