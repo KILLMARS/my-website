@@ -8,32 +8,7 @@
     <title>About Us</title>
 </head>
 <body>
-    <div class="wrapper">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">CoolWebsite</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="notes.html">Notes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-toggle="modal" data-target="#signupModal">Sign Up</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    
+    <div class="wrapper">    
         <main class="container my-5">
             <div class="row">
                 <div class="col md-8">
@@ -45,7 +20,7 @@
                     </p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="spiritual_animal.jpg" alt="Dude" class="img-fluid rounded shadow-sm">
+                    <%= image_tag "spiritual_animal.jpg", alt: "Dude", class: "img-fluid rounded shadow-sm" %>
                     <p class="mt-2">My spirit animal</p>
                 </div>
             </div>
